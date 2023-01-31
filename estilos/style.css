@@ -83,8 +83,8 @@ div.campo > label {
 div.campo > input {
     background-color: #a1e6e4;
     border-radius: 5px;
-    padding: 15px;
-    margin-top: 4px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 div.campo > input:focus-within {
