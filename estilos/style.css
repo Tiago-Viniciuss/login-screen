@@ -64,6 +64,8 @@ section#login {
 
 #formulario p {
     font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
 }
 
 form > div.campo {
@@ -77,9 +79,20 @@ div.campo > label {
     display: none;
 }
 
-.iloginlabel {
-    display: none;
+
+div.campo > input {
+    background-color: #a1e6e4;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 4px;
 }
+
+div.campo > input:focus-within {
+    background-color: white;
+
+    /* Este recurso deixa a caixa clara, enquanto eu digito */
+}
+
 
 form > input[type=submit] {
 
@@ -118,10 +131,16 @@ form > a.botao {
 }
 
 form > a.botao > i {
-    font-size: 0.8em;
+    font-size: 1em;
+    color: black;
 }
 
 form > a.botao:hover {
     background-color: #2d6462;
     color: white;
+}
+
+.material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    padding: 5px;
 }
